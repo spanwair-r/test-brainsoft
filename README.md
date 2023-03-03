@@ -14,6 +14,8 @@ PostgreSQL (Objection.js)
 yarn
 
 ### START APP
+!IMPORTANT NOTE, BE SURE YOU HAS .env FILE IN YOUR SCRIPT
+
 (add --build option after script only on first call)
 docker-compose up
 
