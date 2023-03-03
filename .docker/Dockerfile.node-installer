@@ -1,0 +1,7 @@
+FROM node:14-alpine as development
+
+WORKDIR /
+
+RUN apk add --no-cache bash
+# auto install dependencies within volume and run
+CMD ["/bin/bash", "-c", "([[ -d ./node_modules/.bin ]] || yarn;)"]

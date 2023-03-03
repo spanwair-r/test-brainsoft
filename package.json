@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "brainsoft",
+  "version": "0.0.1",
+  "workspaces": [
+    "node"
+  ],
+  "devDependencies": {
+    "lint-staged": "^12.1.3"
+  },
+  "lint-staged": {
+    "*.{js,ts}": "eslint"
+  }
+}
